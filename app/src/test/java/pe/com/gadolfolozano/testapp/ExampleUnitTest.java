@@ -1,4 +1,4 @@
-package pe.com.gadolfolozano.testApp;
+package pe.com.gadolfolozano.testapp;
 
 import org.junit.Test;
 

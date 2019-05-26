@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">TestApp</string>
+
+    <string name="stepper_button_text">Stepper Example</string>
+
+    <string name="shake_button_text">Shake Example</string>
+
+    <string name="compass_button_text">Compass Example</string>
+
+    <string name="shake_disclaimer">Shake your phone!</string>
+    <string name="shake_text_test">This label will changue its color as you shake your phone</string>
+
 </resources>
