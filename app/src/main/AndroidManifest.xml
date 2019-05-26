@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="pe.com.gadolfolozano.testapp.shake.ShakeActivity"/>
+        <activity
+            android:name="pe.com.gadolfolozano.testapp.compass.CompassActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="pe.com.gadolfolozano.testapp.shake.ShakeActivity" />
+
         <service android:name="pe.com.gadolfolozano.testapp.shake.ShakeService" />
     </application>
 

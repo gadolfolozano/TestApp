@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pe/com/gadolfolozano/testapp/compass/CompassActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/pe/com/gadolfolozano/testapp/shake/ShakeActivity.java">
           <value>
             <set />
@@ -49,6 +54,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/pe/com/gadolfolozano/testapp/shake/ShakeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_compass.xml">
           <value>
             <set />
           </value>

@@ -10,4 +10,6 @@
     <string name="shake_disclaimer">Shake your phone!</string>
     <string name="shake_text_test">This label will changue its color as you shake your phone</string>
 
+    <string name="compass_degrees">Degrees: %f</string>
+
 </resources>
