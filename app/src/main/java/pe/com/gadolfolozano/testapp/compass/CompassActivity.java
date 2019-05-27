@@ -14,9 +14,8 @@ import pe.com.gadolfolozano.testapp.R;
 public class CompassActivity extends AppCompatActivity implements SensorEventListener {
 
     private TextView textViewOrientation;
-    private ImageView imageView;
+    private CompassView compassView;
 
-    private float currentDegree = 0f;
     private SensorManager sensorManager;
 
     @Override
@@ -25,7 +24,7 @@ public class CompassActivity extends AppCompatActivity implements SensorEventLis
         setContentView(R.layout.activity_compass);
 
         textViewOrientation = findViewById(R.id.textViewOrientation);
-        imageView = findViewById(R.id.imageView);
+        compassView = findViewById(R.id.compassView);
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
     }
@@ -46,7 +45,7 @@ public class CompassActivity extends AppCompatActivity implements SensorEventLis
     public void onSensorChanged(SensorEvent event) {
         float degree = Math.round(event.values[0]);
         textViewOrientation.setText(getString(R.string.compass_degrees, degree));
-        imageView.setRotation(-degree);
+        compassView.setRotation(-degree);
     }
 
     @Override
