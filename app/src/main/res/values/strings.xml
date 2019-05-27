@@ -12,4 +12,13 @@
 
     <string name="compass_degrees">Degrees: %f</string>
 
+
+    <string name="stepper_previous">Previous</string>
+    <string name="stepper_next">Next</string>
+
+    <string name="dummy_text_1">Step 1</string>
+    <string name="dummy_text_2">Step 2</string>
+    <string name="dummy_text_3">Step 3</string>
+    <string name="dummy_text_4">Step 4</string>
+
 </resources>

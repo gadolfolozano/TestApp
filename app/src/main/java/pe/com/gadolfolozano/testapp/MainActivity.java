@@ -8,11 +8,13 @@ import android.widget.Button;
 
 import pe.com.gadolfolozano.testapp.compass.CompassActivity;
 import pe.com.gadolfolozano.testapp.shake.ShakeActivity;
+import pe.com.gadolfolozano.testapp.stepper.StepperActiviy;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button buttonShake;
     private Button buttonCompass;
+    private Button buttonStepper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         buttonShake = findViewById(R.id.button_shake);
         buttonCompass = findViewById(R.id.button_compass);
+        buttonStepper = findViewById(R.id.button_stepper);
 
         buttonShake.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, CompassActivity.class));
+            }
+        });
+
+        buttonStepper.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, StepperActiviy.class));
             }
         });
     }
